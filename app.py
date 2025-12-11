@@ -102,7 +102,6 @@ def get_pk(table):
     return None
 
 
-# -------------------- GUI --------------------
 conn = sqlite3.connect(DB)
 cur = conn.cursor()
 
@@ -128,4 +127,5 @@ tree = ttk.Treeview(root)
 tree.pack(expand=True, fill="both")
 
 root.mainloop()
+
 
